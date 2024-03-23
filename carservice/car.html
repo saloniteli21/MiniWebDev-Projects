@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Servicing</title>
+  <link rel="stylesheet" href="stylescar.css">
+  <script>
+    // Smooth scrolling function
+    function scrollToSection(id) {
+      document.getElementById(id).scrollIntoView({
+        behavior: 'smooth'
+      });
+    }
+  </script>
+</head>
+
+<body>
+  <header>
+    <h1>Prime Car Servicing Center</h1>
+    <nav>
+      <ul>
+        <li><a href="#" onclick="scrollToSection('home')">Home</a></li>
+        <li><a href="#" onclick="scrollToSection('services')">Services</a></li>
+        <li><a href="#" onclick="scrollToSection('about')">About Us</a></li>
+        <li><a href="#" onclick="scrollToSection('contact')">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h2>Home Section</h2>
+      <P>At Prime Car Servicing Center, we are committed to delivering top-notch automotive care, ensuring your vehicle runs smoothly and reliably. With a team of skilled technicians and a comprehensive range of services, including oil changes, tire rotations, brake inspections, engine tune-ups, and professional car washes, we prioritize quality, safety, and customer satisfaction. Trust us to keep your vehicle in optimal condition, providing peace of mind and confidence on the road.</P>
+    </section>
+
+    <section id="services">
+      <h2>Our Services</h2>
+      <ul>
+        <li>
+          <img src="oilchange.jpg" alt="Oil Change">
+          <p>Oil Change</p>
+        </li>
+        <li>
+          <img src="tierrot.jpg" alt="Tire Rotation">
+          <p>Tire Rotation</p>
+        </li>
+        <li>
+          <img src="break.jpg" alt="Brake Inspection">
+          <p>Brake Inspection</p>
+        </li>
+        <li>
+          <img src="engine.jpg" alt="Engine Tune-up">
+          <p>Engine Tune-up</p>
+        </li>
+        <li>
+          <img src="wash.jpg" alt="Car Wash">
+          <p>Car Wash</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>"At Prime Car servicing center, we're more than just a garage – we're your trusted automotive partner committed to keeping your vehicle running smoothly. With a team of highly skilled technicians and years of industry expertise, we pride ourselves on delivering top-quality car maintenance and repair services. From routine oil changes to complex engine diagnostics, we handle it all with precision and care. Customer satisfaction is at the heart of everything we do, and we strive to build long-lasting relationships with each client through transparent communication and personalized service. When you choose [Car Servicing Center], you can trust that your vehicle is in good hands, ensuring you can hit the road with confidence, mile after mile.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: info@carservicecenter.com</p>
+      <p>Phone: (123) 456-7890</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Car Servicing Center. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
